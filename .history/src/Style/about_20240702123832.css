@@ -1,0 +1,40 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(227, 227, 241);
+    height: 100vh;
+    
+}
+
+.about-description {
+    flex: 1;
+ }
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    padding-top:120px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    padding-left:0px;
+}
+.paraAbt{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+ text-align: justify;    
+     
+
+}
+.abth1{
+    
+text-align: center;
+  font-size: 50px;
+ color:rgb(147, 233, 126);  
+ text-decoration:underline;        
+}

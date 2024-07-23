@@ -1,0 +1,66 @@
+ .home {
+     height: 100vh;
+     background-image: url('../assets/HD-wallpaper-supermarket-and-background-grocery-store.jpg');
+     /* Adjust the path if necessary */
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+ }
+ 
+
+
+ 
+ /* CSS */
+ .button-58 {
+     align-items: center;
+     background-color: rgb(255, 0, 0);
+     border: 2px solid rgb(255, 25, 0);
+     box-sizing: border-box;
+     color: #ffffff;
+     cursor: pointer;
+     display: inline-flex;
+     fill: #ffffff;
+     font-family: Inter, sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     height: 48px;
+     justify-content: center;
+     letter-spacing: -.8px;
+     line-height: 24px;
+     min-width: 140px;
+     outline: 0;
+     padding: 0 17px;
+     text-align: center;
+     text-decoration: none;
+     transition: all .3s;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+ }
+
+ .button-58:focus {
+     color: #171e29;
+ }
+
+ .button-58:hover {
+     background-color: #3385ff;
+     border-color: #3385ff;
+     fill: #06f;
+ }
+
+ .button-58:active {
+     background-color: #3385ff;
+     border-color: #3385ff;
+     fill: #06f;
+ }
+
+ @media (min-width: 768px) {
+     .button-58 {
+         min-width: 170px;
+     }
+ }
+  
